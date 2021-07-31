@@ -3,7 +3,8 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 
 import { MONGO_URI } from './utils/config';
-import * as route from './controller/routes';
+import * as carsApi from './controllers/carsApi';
+import * as usersApi from './controllers/usersApi';
 
 const app: express.Application = express();
 
@@ -28,10 +29,15 @@ mongoose
   });
 
 // CRUD Functions
-app.get('/api/cars', route.getAllCars);
-app.get('/api/cars/:id', route.getCarById);
-app.post('/api/cars', route.addNewCar);
-app.delete('/api/cars/:id', route.deleteCarById);
-app.put('/api/cars/:id', route.updateCarById);
+// Cars API
+app.get('/cars', usersApi.authenticate, carsApi.getAllCars);
+app.get('/cars/:id', usersApi.authenticate, carsApi.getCarById);
+app.post('/cars', usersApi.authenticate, carsApi.addNewCar);
+app.delete('/cars/:id', usersApi.authenticate, carsApi.deleteCarById);
+app.put('/cars/:id', usersApi.authenticate, carsApi.updateCarById);
+
+// Users API
+app.post('/users/login', usersApi.login);
+app.post('/users/signup', usersApi.signup);
 
 export default app;

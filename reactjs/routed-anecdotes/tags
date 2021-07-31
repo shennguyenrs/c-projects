@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+About	src/App.js	/^        About$/;"	r
+Anecdotes	src/App.js	/^        Anecdotes$/;"	r
+Link	src/App.js	/^  Link,$/;"	r
+Route	src/App.js	/^  Route,$/;"	r
+Switch	src/App.js	/^  Switch,$/;"	r
+addNew	src/App.js	/^  addNew: PropTypes.func,$/;"	r
+anecdotes	src/App.js	/^  anecdotes: PropTypes.array,$/;"	r
+author	src/App.js	/^          author$/;"	r
+author	src/App.js	/^      author: 'Donald Knuth',$/;"	r
+author	src/App.js	/^      author: 'Jez Humble',$/;"	r
+author	src/App.js	/^      author: author.value,$/;"	r
+content	src/App.js	/^          content$/;"	r
+content	src/App.js	/^      content: 'If it hurts, do it more often',$/;"	r
+content	src/App.js	/^      content: 'Premature optimization is the root of all evil',$/;"	r
+content	src/App.js	/^      content: content.value,$/;"	r
+https	src/App.js	/^      https:\/\/github.com\/fullstack-hy2019\/routed-anecdotes\/blob\/master\/src\/App.js$/;"	r
+id	src/App.js	/^      id: '1',$/;"	r
+id	src/App.js	/^      id: '2',$/;"	r
+id	src/App.js	/^    anecdote.id = (Math.random() * 10000).toFixed(0);$/;"	r
+info	src/App.js	/^      info: 'http:\/\/wiki.c2.com\/?PrematureOptimization',$/;"	r
+info	src/App.js	/^      info: 'https:\/\/martinfowler.com\/bliki\/FrequencyReducesDifficulty.html',$/;"	r
+infor	src/App.js	/^      infor: info.value,$/;"	r
+onChange	src/hooks/useField.js	/^    onChange,$/;"	r
+paddingRight	src/App.js	/^    paddingRight: 5,$/;"	r
+place	src/App.js	/^      about a person, place, or thing through the concrete details of a short$/;"	r
+propTypes	src/App.js	/^AnecdoteList.propTypes = {$/;"	r
+propTypes	src/App.js	/^CreateNew.propTypes = {$/;"	r
+propTypes	src/App.js	/^SingleAnecdote.propTypes = {$/;"	r
+type	src/hooks/useField.js	/^    type,$/;"	r
+useHistory	src/App.js	/^  useHistory,$/;"	r
+useParams	src/App.js	/^  useParams,$/;"	r
+value	src/hooks/useField.js	/^    value,$/;"	r
+votes	src/App.js	/^      votes: 0,$/;"	r
+votes	src/App.js	/^      votes: anecdote.votes + 1,$/;"	r

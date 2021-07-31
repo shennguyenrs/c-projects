@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "author": "Shen Nguyen",
   "license": "ISC",
@@ -15,7 +15,8 @@
     "express": "^4.17.1",
     "jest": "^26.6.3",
     "mongoose": "^5.11.14",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.4"
   },
   "devDependencies": {
     "eslint": "^7.19.0"

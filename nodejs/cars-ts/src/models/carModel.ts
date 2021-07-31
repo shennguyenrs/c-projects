@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-import Car from '../interface/Car';
+import Car from '../interfaces/Car';
 
 // Database schema
 const carSchema = new mongoose.Schema<Car>({

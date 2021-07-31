@@ -19,7 +19,10 @@ mongoose
     useFindAndModify: true,
   })
   .then(() => logger.info('Connected successfully!'))
-  .catch((err) => logger.error('Error to connect MongoDB', err.message));
+  .catch((err) => {
+    logger.error('Error to connect MongoDB', err.message);
+    process.exit(1);
+  });
 
 app.use(cors());
 app.use(express.json());

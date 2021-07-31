@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Filter	src/components/FilteredAnecdotes.js	/^      Filter$/;"	r
+addNew	src/services/services.js	/^  addNew,$/;"	r
+anecdoteToChange	src/reducers/AnecdoteReducer.js	/^      anecdoteToChange = state.filter((anecdote) => anecdote.id === id)[0];$/;"	r
+anecdoteToChange	src/reducers/AnecdoteReducer.js	/^  let anecdoteToChange = {};$/;"	r
+anecdotes	src/components/DisplayAnecdote.js	/^  anecdotes: PropTypes.array,$/;"	r
+anecdotes	src/reducers/reducers.test.js	/^  anecdotes: [$/;"	r
+anecdotes	src/store.js	/^  anecdotes: AnecdoteReducer,$/;"	r
+border	src/components/Notification.js	/^    border: 'solid',$/;"	r
+borderWidth	src/components/Notification.js	/^    borderWidth: 1,$/;"	r
+changedAnecdote	src/reducers/AnecdoteReducer.js	/^      changedAnecdote = {$/;"	r
+changedAnecdote	src/reducers/AnecdoteReducer.js	/^  let changedAnecdote = {};$/;"	r
+combineReducers	src/store.js	/^import { createStore, combineReducers, applyMiddleware } from 'redux';$/;"	r
+content	src/reducers/AnecdoteReducer.js	/^        content: content,$/;"	r
+content	src/reducers/AnecdoteReducer.js	/^        content: newAnecdote.anecdotes,$/;"	r
+content	src/reducers/NotificationReducer.js	/^      content = action.data.content;$/;"	r
+content	src/reducers/NotificationReducer.js	/^      content = action.data.notification;$/;"	r
+content	src/reducers/NotificationReducer.js	/^  let content = '';$/;"	r
+content	src/reducers/reducers.test.js	/^      content: 'use a node with that id is already in the Store.',$/;"	r
+content	src/reducers/reducers.test.js	/^    content: 'use a node with that id is already in the Store.',$/;"	r
+content	src/reducers/reducers.test.js	/^    content: addContent,$/;"	r
+content	src/utils/utils.js	/^    content: anecdote,$/;"	r
+createAnecdote	src/components/CreateAnecdote.js	/^  createAnecdote,$/;"	r
+createAnecdote	src/components/CreateAnecdote.js	/^  createAnecdote: PropTypes.func,$/;"	r
+data	src/reducers/AnecdoteReducer.js	/^      data: res,$/;"	r
+data	src/reducers/AnecdoteReducer.js	/^      data: {$/;"	r
+data	src/reducers/FilterReducer.js	/^    data: {$/;"	r
+data	src/reducers/reducers.test.js	/^  data: {$/;"	r
+filter	src/store.js	/^  filter: FilterReducer,$/;"	r
+filterKeyword	src/components/FilteredAnecdotes.js	/^  filterKeyword: PropTypes.func,$/;"	r
+getAll	src/services/services.js	/^  getAll,$/;"	r
+id	src/reducers/AnecdoteReducer.js	/^        id: id,$/;"	r
+id	src/reducers/AnecdoteReducer.js	/^      id = action.data.id;$/;"	r
+id	src/reducers/AnecdoteReducer.js	/^  let id = 0;$/;"	r
+id	src/reducers/reducers.test.js	/^      id: 1,$/;"	r
+id	src/reducers/reducers.test.js	/^    id: 1,$/;"	r
+id	src/utils/utils.js	/^    id: getId(),$/;"	r
+initializeAnecdote	src/App.js	/^  initializeAnecdote: PropTypes.func,$/;"	r
+name	src/components/FilteredAnecdotes.js	/^        name="filter_value"$/;"	r
+newNoti	src/components/Notification.js	/^  newNoti: PropTypes.string,$/;"	r
+newVote	src/reducers/AnecdoteReducer.js	/^      newVote = anecdoteToChange.votes + 1;$/;"	r
+newVote	src/reducers/AnecdoteReducer.js	/^  let newVote = 0;$/;"	r
+notification	src/reducers/AnecdoteReducer.js	/^        notification: newContent,$/;"	r
+notification	src/reducers/reducers.test.js	/^  notification: '',$/;"	r
+notification	src/store.js	/^  notification: NotiReducer,$/;"	r
+onChange	src/components/FilteredAnecdotes.js	/^        onChange={(e) => filterKeyword(e.target.value)}$/;"	r
+padding	src/components/Notification.js	/^    padding: 10,$/;"	r
+propTypes	src/App.js	/^App.propTypes = {$/;"	r
+propTypes	src/components/CreateAnecdote.js	/^CreateAnecdote.propTypes = {$/;"	r
+propTypes	src/components/DisplayAnecdote.js	/^DisplayAnecdote.propTypes = {$/;"	r
+propTypes	src/components/FilteredAnecdotes.js	/^FilteredAnecdotes.propTypes = {$/;"	r
+propTypes	src/components/Notification.js	/^Notification.propTypes = {$/;"	r
+reducers	src/store.js	/^  reducers,$/;"	r
+type	src/components/FilteredAnecdotes.js	/^        type="text"$/;"	r
+type	src/reducers/AnecdoteReducer.js	/^      type: 'INIT_ANECDOTE',$/;"	r
+type	src/reducers/AnecdoteReducer.js	/^      type: 'NEW_ANECDOTE',$/;"	r
+type	src/reducers/AnecdoteReducer.js	/^      type: 'VOTE',$/;"	r
+type	src/reducers/FilterReducer.js	/^    type: 'SET_FILTER',$/;"	r
+type	src/reducers/reducers.test.js	/^  type: 'NEW_ANECDOTE',$/;"	r
+type	src/reducers/reducers.test.js	/^  type: 'VOTE',$/;"	r
+updateObj	src/services/services.js	/^  updateObj,$/;"	r
+vote	src/components/DisplayAnecdote.js	/^              vote$/;"	r
+voteAnecdote	src/components/DisplayAnecdote.js	/^  voteAnecdote,$/;"	r
+voteAnecdote	src/components/DisplayAnecdote.js	/^  voteAnecdote: PropTypes.func,$/;"	r
+votes	src/reducers/AnecdoteReducer.js	/^        votes: newVote,$/;"	r
+votes	src/reducers/reducers.test.js	/^      votes: 0,$/;"	r
+votes	src/reducers/reducers.test.js	/^    votes: 1,$/;"	r
+votes	src/utils/utils.js	/^    votes: 0,$/;"	r

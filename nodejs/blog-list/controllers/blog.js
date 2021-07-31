@@ -1,7 +1,7 @@
 const appRouter = require('express').Router();
 const Blog = require('../models/blog');
 
-appRouter.get('/', (req, res, next) => {
+appRouter.get('/api/blogs', (_req, res, next) => {
   Blog.find({})
     .then((blogs) => {
       res.json(blogs);
@@ -9,7 +9,7 @@ appRouter.get('/', (req, res, next) => {
     .catch((err) => next(err));
 });
 
-appRouter.post('/', (req, res, next) => {
+appRouter.post('/api/blogs', (req, res, next) => {
   const blog = new Blog(req.body);
 
   blog

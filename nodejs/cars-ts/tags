@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Car	src/controllers/carsApi.ts	/^import Car from '..\/interfaces\/Car';$/;"	I
+Car	src/interfaces/Car.ts	/^interface Car {$/;"	i
+Car	src/models/carModel.ts	/^import Car from '..\/interfaces\/Car';$/;"	I
+MONGO_URI	src/utils/config.ts	/^export const MONGO_URI = process.env.MONGO_URI;$/;"	v
+SERECT_KEY	src/utils/config.ts	/^export const SERECT_KEY = process.env.SERECT_KEY;$/;"	v
+User	src/controllers/usersApi.ts	/^import User from '..\/interfaces\/User';$/;"	I
+User	src/interfaces/User.ts	/^interface User {$/;"	i
+User	src/models/userModel.ts	/^import User from '..\/interfaces\/User';$/;"	I
+_req	src/controllers/carsApi.ts	/^  _req: Request,$/;"	m
+addNewCar	src/controllers/carsApi.ts	/^export function addNewCar($/;"	f
+app	index.ts	/^import app from '.\/src\/app';$/;"	I
+authenticate	src/controllers/usersApi.ts	/^export function authenticate($/;"	f
+bcrypt	src/controllers/usersApi.ts	/^import bcrypt from 'bcrypt';$/;"	I
+brand	src/interfaces/Car.ts	/^  brand: string;$/;"	m
+brand	src/models/carModel.ts	/^  brand: { type: String, required: true },$/;"	m
+carModel	src/controllers/carsApi.ts	/^import carModel from '..\/models\/carModel';$/;"	I
+color	src/interfaces/Car.ts	/^  color: string;$/;"	m
+color	src/models/carModel.ts	/^  color: { type: String, required: true },$/;"	m
+cors	src/app.ts	/^import cors from 'cors';$/;"	I
+deleteCarById	src/controllers/carsApi.ts	/^export function deleteCarById($/;"	f
+dotenv	index.ts	/^import dotenv from 'dotenv';$/;"	I
+dotenv	src/utils/config.ts	/^import dotenv from 'dotenv';$/;"	I
+email	src/interfaces/User.ts	/^  email: string;$/;"	m
+email	src/models/userModel.ts	/^  email: { type: String, required: true },$/;"	m
+express	src/app.ts	/^import express from 'express';$/;"	I
+getAllCars	src/controllers/carsApi.ts	/^export function getAllCars($/;"	f
+getCarById	src/controllers/carsApi.ts	/^export function getCarById($/;"	f
+http	index.ts	/^import http from 'http';$/;"	I
+if	src/controllers/usersApi.ts	/^        if (bcrypt.compareSync(loginPass, hashpwd)) {$/;"	m
+if	src/controllers/usersApi.ts	/^      if (result) {$/;"	m
+if	src/controllers/usersApi.ts	/^    if (err) return res.status(400).end;$/;"	m
+if	src/controllers/usersApi.ts	/^  if (!token) res.status(400).end();$/;"	m
+login	src/controllers/usersApi.ts	/^export function login(req: Request, res: Response): void {$/;"	f
+model	src/interfaces/Car.ts	/^  model: string;$/;"	m
+model	src/models/carModel.ts	/^  model: { type: String, required: true },$/;"	m
+mongoose	src/app.ts	/^import mongoose from 'mongoose';$/;"	I
+mongoose	src/models/carModel.ts	/^import mongoose from 'mongoose';$/;"	I
+next	src/controllers/carsApi.ts	/^      next(err);$/;"	m
+next	src/controllers/carsApi.ts	/^  next: NextFunction$/;"	m
+next	src/controllers/usersApi.ts	/^    next();$/;"	m
+next	src/controllers/usersApi.ts	/^  next: NextFunction$/;"	m
+password	src/interfaces/User.ts	/^  password: string;$/;"	m
+password	src/models/userModel.ts	/^  password: { type: String, required: true },$/;"	m
+req	src/controllers/carsApi.ts	/^  req: Request,$/;"	m
+req	src/controllers/usersApi.ts	/^  req: Request,$/;"	m
+res	src/controllers/carsApi.ts	/^  res: Response,$/;"	m
+res	src/controllers/usersApi.ts	/^  res: Response,$/;"	m
+signup	src/controllers/usersApi.ts	/^export async function signup(req: Request, res: Response): Promise<void> {$/;"	f
+updateCarById	src/controllers/carsApi.ts	/^export function updateCarById($/;"	f
+useCreateIndex	src/app.ts	/^    useCreateIndex: true,$/;"	m
+useFindAndModify	src/app.ts	/^    useFindAndModify: true,$/;"	m
+useNewUrlParser	src/app.ts	/^    useNewUrlParser: true,$/;"	m
+useUnifiedTopology	src/app.ts	/^    useUnifiedTopology: true,$/;"	m
+userModel	src/controllers/usersApi.ts	/^import userModel from '..\/models\/userModel';$/;"	I
+year	src/interfaces/Car.ts	/^  year: number;$/;"	m
+year	src/models/carModel.ts	/^  year: { type: Number, required: true },$/;"	m
