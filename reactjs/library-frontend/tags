@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$author	src/queries.js	/^    $author: String!$/;"	r
+$born	src/queries.js	/^  mutation updateAuthor($name: String!, $born: Int!) {$/;"	r
+$genres	src/queries.js	/^    $genres: [String!]!$/;"	r
+$published	src/queries.js	/^    $published: Int!$/;"	r
+$title	src/queries.js	/^    $title: String!$/;"	r
+ApolloClient	src/index.js	/^  ApolloClient,$/;"	r
+ApolloProvider	src/index.js	/^  ApolloProvider,$/;"	r
+HttpLink	src/index.js	/^  HttpLink,$/;"	r
+InMemoryCache	src/index.js	/^  InMemoryCache,$/;"	r
+author	src/components/NewBook.js	/^          author$/;"	r
+author	src/components/NewBook.js	/^        author: author.value,$/;"	r
+author	src/queries.js	/^      author$/;"	r
+author	src/queries.js	/^      author: $author$/;"	r
+authors	src/components/Authors.js	/^  authors: PropTypes.array,$/;"	r
+authors	src/components/Authors.js	/^const Authors = ({ show, authors, setErr }) => {$/;"	r
+books	src/components/Books.js	/^  books: PropTypes.array,$/;"	r
+booksCount	src/queries.js	/^      booksCount$/;"	r
+born	src/components/Authors.js	/^        born$/;"	r
+born	src/components/Authors.js	/^    updateAuthor({ variables: { name: author, born: Number(born.value) } });$/;"	r
+born	src/queries.js	/^      born$/;"	r
+cache	src/index.js	/^  cache: new InMemoryCache(),$/;"	r
+errMes	src/components/Notification.js	/^  errMes: PropTypes.string,$/;"	r
+genres	src/components/NewBook.js	/^        genres,$/;"	r
+genres	src/queries.js	/^      genres$/;"	r
+genres	src/queries.js	/^      genres: $genres$/;"	r
+id	src/queries.js	/^      id$/;"	r
+label	src/components/Authors.js	/^    options.push({ value: p.name, label: p.name });$/;"	r
+link	src/index.js	/^  link: new HttpLink({$/;"	r
+name	src/queries.js	/^      name$/;"	r
+onChange	src/components/Authors.js	/^          onChange={handleSelectAuthor}$/;"	r
+onChange	src/hooks/useField.js	/^    onChange,$/;"	r
+onClick	src/components/Authors.js	/^          onClick={handleUpdateAuthor}$/;"	r
+options	src/components/Authors.js	/^          options={options}$/;"	r
+placeholder	src/components/Authors.js	/^          placeholder="Select an author"$/;"	r
+propTypes	src/components/Authors.js	/^Authors.propTypes = {$/;"	r
+propTypes	src/components/Books.js	/^Books.propTypes = {$/;"	r
+propTypes	src/components/NewBook.js	/^NewBook.propTypes = {$/;"	r
+propTypes	src/components/Notification.js	/^Notification.propTypes = {$/;"	r
+published	src/components/NewBook.js	/^          published$/;"	r
+published	src/components/NewBook.js	/^        published: Number(published.value),$/;"	r
+published	src/queries.js	/^      published$/;"	r
+published	src/queries.js	/^      published: $published$/;"	r
+refetchQueries	src/components/Authors.js	/^    refetchQueries: [{ query: ALL_DATA }],$/;"	r
+refetchQueries	src/components/NewBook.js	/^    refetchQueries: [{ query: ALL_DATA }],$/;"	r
+reset	src/hooks/useField.js	/^    reset,$/;"	r
+setBornTo	src/queries.js	/^    editAuthor(name: $name, setBornTo: $born) {$/;"	r
+setErr	src/components/Authors.js	/^  setErr: PropTypes.func,$/;"	r
+setErr	src/components/NewBook.js	/^  setErr: PropTypes.func,$/;"	r
+show	src/components/Authors.js	/^  show: PropTypes.bool,$/;"	r
+show	src/components/Books.js	/^  show: PropTypes.bool,$/;"	r
+show	src/components/NewBook.js	/^  show: PropTypes.bool,$/;"	r
+title	src/components/NewBook.js	/^          title$/;"	r
+title	src/components/NewBook.js	/^        title: title.value,$/;"	r
+title	src/queries.js	/^      title$/;"	r
+title	src/queries.js	/^      title: $title$/;"	r
+type	src/components/Authors.js	/^          type="submit"$/;"	r
+type	src/hooks/useField.js	/^    type,$/;"	r
+uri	src/index.js	/^    uri: 'http:\/\/192.168.3.15:4000',$/;"	r
+value	src/components/Authors.js	/^          value="update author"$/;"	r
+value	src/hooks/useField.js	/^    value,$/;"	r
+variables	src/components/NewBook.js	/^      variables: {$/;"	r

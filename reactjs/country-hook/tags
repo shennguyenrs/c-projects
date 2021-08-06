@@ -4,6 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-onChange	src/App.js	/^    onChange$/;"	r
+alt	src/App.js	/^        alt={`flag of ${country.data.name}`}$/;"	r
+axios	src/App.js	/^    axios$/;"	r
+country	src/App.js	/^  country: PropTypes.object,$/;"	r
+data	src/App.js	/^          data: data[0],$/;"	r
+found	src/App.js	/^          found: true,$/;"	r
+height	src/App.js	/^        height="100"$/;"	r
+onChange	src/App.js	/^    onChange,$/;"	r
+propTypes	src/App.js	/^Country.propTypes = {$/;"	r
+src	src/App.js	/^        src={country.data.flag}$/;"	r
 type	src/App.js	/^    type,$/;"	r
 value	src/App.js	/^    value,$/;"	r
