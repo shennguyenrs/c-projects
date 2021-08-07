@@ -8,6 +8,7 @@ Customer	interface/customers.ts	/^export interface Customer {$/;"	i
 DATABASE	utils/config.ts	/^export const DATABASE = process.env.DATABASE;$/;"	v
 HOST	utils/config.ts	/^export const HOST = process.env.HOST;$/;"	v
 PASSWD	utils/config.ts	/^export const PASSWD = process.env.PASSWD;$/;"	v
+SERECTKEY	utils/config.ts	/^export const SERECTKEY = process.env.SERECTKEY;$/;"	v
 SQL_PORT	utils/config.ts	/^export const SQL_PORT = Number(process.env.SQL_PORT);$/;"	v
 USER	utils/config.ts	/^export const USER = process.env.DBUSER;$/;"	v
 _req	controllers/routes.ts	/^  _req: Request,$/;"	m
