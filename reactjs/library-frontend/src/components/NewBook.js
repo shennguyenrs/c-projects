@@ -45,6 +45,7 @@ const NewBook = ({ show, setErr }) => {
 
   return (
     <>
+      <h2>add new book</h2>
       <form onSubmit={submit}>
         <div>
           title

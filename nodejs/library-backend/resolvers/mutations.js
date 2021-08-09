@@ -72,6 +72,11 @@ const addAuthor = async (_root, args) => {
 
 // Edit author born filter by author name
 const editAuthor = async (_root, args) => {
+  // setBornTo validation
+  if (args.setBornTo <= 0) {
+    throw new UserInputError('Author birth year must be larger than 0');
+  }
+
   await Author.findOneAndUpdate({ name: args.name }, { born: args.setBornTo });
 
   return Author.findOne({ name: args.name });

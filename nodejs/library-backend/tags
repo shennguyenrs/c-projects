@@ -54,7 +54,7 @@ born	sampleDB/Authors.js	/^    born: 1963,$/;"	r
 born	tests/grapql.test.js	/^				born$/;"	r
 born	tests/grapql.test.js	/^    const query = `{ allAuthors { name, born, booksCount, id  }}`;$/;"	r
 born	utils/addSamples.js	/^          born: null,$/;"	r
-born	utils/addSamples.js	/^        born: item.born ? item.born : null,$/;"	r
+born	utils/addSamples.js	/^        born: item.born || null,$/;"	r
 createUser	resolvers/mutations.js	/^  createUser: (root, args) => createUser(root, args),$/;"	r
 editAuthor	resolvers/mutations.js	/^  editAuthor: (root, args) => editAuthor(root, args),$/;"	r
 exports	apollo/server.js	/^module.exports = server;$/;"	r

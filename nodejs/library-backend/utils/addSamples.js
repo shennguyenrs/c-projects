@@ -1,7 +1,6 @@
 // Models
 const Author = require('../models/author');
 const Book = require('../models/book');
-//const User = require('../models/user');
 
 // Sample datatbase
 const sampleAuthors = require('../sampleDB/Authors');
@@ -19,7 +18,7 @@ const addAuthors = () => {
     sampleAuthors.map(async (item) => {
       const newAuthor = new Author({
         name: item.name,
-        born: item.born ? item.born : null,
+        born: item.born || null,
       });
 
       await newAuthor.save();

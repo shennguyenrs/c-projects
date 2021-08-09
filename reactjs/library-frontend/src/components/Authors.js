@@ -22,7 +22,9 @@ const Authors = ({ show, authors, setErr }) => {
 
   const handleUpdateAuthor = (e) => {
     e.preventDefault();
-    updateAuthor({ variables: { name: author, born: Number(born.value) } });
+    updateAuthor({
+      variables: { name: author, born: Number(born.value) },
+    });
     resetBorn();
   };
 
@@ -54,7 +56,7 @@ const Authors = ({ show, authors, setErr }) => {
         </tbody>
       </table>
       <div>
-        <h2>update birthyear</h2>
+        <h2>update birth year</h2>
         <Select
           options={options}
           onChange={handleSelectAuthor}
