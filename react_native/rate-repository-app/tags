@@ -5,17 +5,20 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 App	App.js	/^export default function App() {$/;"	r
-StyleSheet	App.js	/^import { View, StyleSheet, SafeAreaView } from 'react-native';$/;"	r
-backgroundColor	App.js	/^    backgroundColor: colors.grey,$/;"	r
+Main	src/main.js	/^export default function Main() {$/;"	r
+Route	src/main.js	/^import { Switch, Route, Redirect } from 'react-router-native';$/;"	r
+StyleSheet	src/main.js	/^import { View, StyleSheet, SafeAreaView } from 'react-native';$/;"	r
+backgroundColor	src/main.js	/^    backgroundColor: colors.grey,$/;"	r
 blue	src/styles/base.js	/^  blue: '#0365d0',$/;"	r
-container	App.js	/^  container: {$/;"	r
+container	src/main.js	/^  container: {$/;"	r
 darkGrey	src/styles/base.js	/^  darkGrey: '#626262',$/;"	r
 description	src/sampleDB/repositories.js	/^    description: 'Build forms in React, without the tears',$/;"	r
 description	src/sampleDB/repositories.js	/^    description: 'Predictable state container for JavaScript apps',$/;"	r
 description	src/sampleDB/repositories.js	/^    description: 'Ruby on Rails',$/;"	r
 description	src/sampleDB/repositories.js	/^    description: 'The Web framework for perfectionists with deadlines.',$/;"	r
 exports	babel.config.js	/^module.exports = function(api) {$/;"	r
-flex	App.js	/^    flex: 1,$/;"	r
+exports	webpack.config.js	/^module.exports = async function (env, argv) {$/;"	r
+flex	src/main.js	/^    flex: 1,$/;"	r
 forksCount	src/sampleDB/repositories.js	/^    forksCount: 13902,$/;"	r
 forksCount	src/sampleDB/repositories.js	/^    forksCount: 1589,$/;"	r
 forksCount	src/sampleDB/repositories.js	/^    forksCount: 18349,$/;"	r
@@ -29,10 +32,12 @@ id	src/sampleDB/repositories.js	/^    id: 'django.django',$/;"	r
 id	src/sampleDB/repositories.js	/^    id: 'jaredpalmer.formik',$/;"	r
 id	src/sampleDB/repositories.js	/^    id: 'rails.rails',$/;"	r
 id	src/sampleDB/repositories.js	/^    id: 'reduxjs.redux',$/;"	r
+include	webpack.config.js	/^    include: [path.join(__dirname, 'node_modules\/react-router-native')],$/;"	r
 language	src/sampleDB/repositories.js	/^    language: 'Python',$/;"	r
 language	src/sampleDB/repositories.js	/^    language: 'Ruby',$/;"	r
 language	src/sampleDB/repositories.js	/^    language: 'TypeScript',$/;"	r
 lightBlack	src/styles/base.js	/^  lightBlack: '#24292e',$/;"	r
+loader	webpack.config.js	/^    loader: 'babel-loader',$/;"	r
 ownerAvatarUrl	src/sampleDB/repositories.js	/^    ownerAvatarUrl: 'https:\/\/avatars1.githubusercontent.com\/u\/4223?v=4',$/;"	r
 ownerAvatarUrl	src/sampleDB/repositories.js	/^    ownerAvatarUrl: 'https:\/\/avatars2.githubusercontent.com\/u\/27804?v=4',$/;"	r
 ownerAvatarUrl	src/sampleDB/repositories.js	/^    ownerAvatarUrl: 'https:\/\/avatars2.githubusercontent.com\/u\/4060187?v=4',$/;"	r
@@ -50,4 +55,5 @@ stargazersCount	src/sampleDB/repositories.js	/^    stargazersCount: 21553,$/;"	r
 stargazersCount	src/sampleDB/repositories.js	/^    stargazersCount: 45377,$/;"	r
 stargazersCount	src/sampleDB/repositories.js	/^    stargazersCount: 48496,$/;"	r
 stargazersCount	src/sampleDB/repositories.js	/^    stargazersCount: 52869,$/;"	r
+test	webpack.config.js	/^    test: \/\\.js$\/,$/;"	r
 white	src/styles/base.js	/^  white: '#ffffff',$/;"	r
