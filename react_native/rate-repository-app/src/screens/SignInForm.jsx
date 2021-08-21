@@ -33,9 +33,10 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontWeight: 'bold',
     backgroundColor: colors.blue,
-    paddingHorizontal: 60,
-    paddingVertical: 10,
     borderRadius: 30,
+    maxHeight: 40,
+    paddingVertical: 10,
+    paddingHorizontal: 40,
   },
   buttonText: {
     color: colors.white,
@@ -88,11 +89,9 @@ const SignInForm = ({ navigation }) => {
         secureTextEntry={true}
         onChangeText={(text) => setPw(text)}
       />
-      <Pressable onPress={handleSubmit}>
-        <View style={[shadow.shadow, styles.button]}>
-          <Ionicons name="log-in-outline" color={colors.white} size={18} />
-          <Text style={styles.buttonText}>Sign in</Text>
-        </View>
+      <Pressable style={[shadow.shadow, styles.button]} onPress={handleSubmit}>
+        <Ionicons name="log-in-outline" color={colors.white} size={18} />
+        <Text style={styles.buttonText}>Sign in</Text>
       </Pressable>
       {isLoading ? (
         <View style={[styles.loading]}>
