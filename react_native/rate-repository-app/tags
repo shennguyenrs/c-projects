@@ -18,6 +18,7 @@ description	src/sampleDB/repositories.js	/^    description: 'Predictable state c
 description	src/sampleDB/repositories.js	/^    description: 'Ruby on Rails',$/;"	r
 description	src/sampleDB/repositories.js	/^    description: 'The Web framework for perfectionists with deadlines.',$/;"	r
 elevation	src/styles/base.js	/^    elevation: 10,$/;"	r
+error	src/styles/base.js	/^  error: '#FE5F55',$/;"	r
 exports	babel.config.js	/^module.exports = function(api) {$/;"	r
 flex	src/Main.js	/^    flex: 1,$/;"	r
 flex	src/styles/base.js	/^    flex: 1,$/;"	r

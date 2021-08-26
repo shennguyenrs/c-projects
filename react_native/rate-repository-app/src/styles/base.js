@@ -6,6 +6,7 @@ export const colors = {
   grey: '#e1e5e8',
   darkGrey: '#626262',
   lightBlack: '#24292e',
+  error: '#FE5F55',
 };
 
 export const appBar = StyleSheet.create({

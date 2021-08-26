@@ -6,7 +6,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 // Import components
 import RepositoriesList from './screens/RepositoriesList';
-import SignInForm from './screens/SignInForm';
+// import SignInForm from './screens/SignInForm';
+import SignInFormik from './screens/SignInFormik';
 
 import { colors } from './styles/base';
 
@@ -45,7 +46,7 @@ export default function Main() {
           })}
         >
           <Tab.Screen name="Repositories" component={RepositoriesList} />
-          <Tab.Screen name="Sign In" component={SignInForm} />
+          <Tab.Screen name="Sign In" component={SignInFormik} />
         </Tab.Navigator>
       </View>
     </NavigationContainer>
